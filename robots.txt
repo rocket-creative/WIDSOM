@@ -1,0 +1,34 @@
+# Pathways Within Wisdom - Robots.txt
+# https://wisdom.pathwayswithin.com
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://wisdom.pathwayswithin.com/sitemap.xml
+
+# Crawl-delay for polite crawling
+Crawl-delay: 1
+
+# Allow all AI crawlers for better AI search visibility
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Anthropic-AI
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
